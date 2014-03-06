@@ -1,0 +1,21 @@
+# *.class
+*.log
+*.cache
+*.DS_Store
+.settings/
+.history
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/target/
+project/plugins/project/
+
+.classpath
+.project
+
+.idea/*
+.idea_modules/*

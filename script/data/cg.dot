@@ -1,0 +1,257 @@
+digraph callgraph {
+ -1627396991 [label="FileUtils.fileRead"]
+ -903646017 [label="StringBuffer.append"]
+  -1627396991 -> -903646017
+ 2039918356 [label="FileInputStream.close"]
+  -1627396991 -> 2039918356
+ -1116957125 [label="StringBuffer.toString"]
+  -1627396991 -> -1116957125
+ 233446302 [label="FileInputStream.read"]
+  -1627396991 -> 233446302
+ -453960216 [label="CountingOutputStream.CountingOutputStream"]
+ -1757483201 [label="TeeOutputStream.flush"]
+ 441877803 [label="OutputStream.flush"]
+  -1757483201 -> 441877803
+ 2097659592 [label="FileUtils.fileDelete"]
+ -656106185 [label="File.delete"]
+  2097659592 -> -656106185
+ 1530583704 [label="FileUtils.filename"]
+ 655020899 [label="String.lastIndexOf"]
+  1530583704 -> 655020899
+ -57631259 [label="String.substring"]
+  1530583704 -> -57631259
+ 1313080981 [label="HexDumpTest.toAscii"]
+ 1073832709 [label="LockableFileWriter.LockableFileWriter"]
+ 1884231867 [label="FileUtils.fileExists"]
+ -1676221210 [label="File.exists"]
+  1884231867 -> -1676221210
+ -87388869 [label="HexDump.dump"]
+ -903646017 [label="StringBuffer.append"]
+  -87388869 -> -903646017
+ 975338642 [label="StringBuffer.setLength"]
+  -87388869 -> 975338642
+ -1148393734 [label="StringBuffer.append"]
+  -87388869 -> -1148393734
+ 1617029651 [label="HexDump.dump"]
+  -87388869 -> 1617029651
+ 1368871195 [label="HexDump.dump"]
+  -87388869 -> 1368871195
+ 441877803 [label="OutputStream.flush"]
+  -87388869 -> 441877803
+ -2123299401 [label="OutputStream.write"]
+  -87388869 -> -2123299401
+ -1116957125 [label="StringBuffer.toString"]
+  -87388869 -> -1116957125
+ 839964833 [label="String.getBytes"]
+  -87388869 -> 839964833
+ 230939615 [label="StringBuffer.append"]
+  -87388869 -> 230939615
+ 1617029651 [label="HexDump.dump"]
+ 975338642 [label="StringBuffer.setLength"]
+  1617029651 -> 975338642
+ -1148393734 [label="StringBuffer.append"]
+  1617029651 -> -1148393734
+ -187862611 [label="FileUtils.basename"]
+ 832408547 [label="FileUtils.basename"]
+  -187862611 -> 832408547
+ 115972656 [label="FileUtils.extension"]
+  -187862611 -> 115972656
+ 1011325667 [label="HexDumpTest.HexDumpTest"]
+ -33191695 [label="HexDumpTest.testDump"]
+ -87388869 [label="HexDump.dump"]
+  -33191695 -> -87388869
+ 1575766943 [label="HexDumpTest.toHex"]
+  -33191695 -> 1575766943
+ 1313080981 [label="HexDumpTest.toAscii"]
+  -33191695 -> 1313080981
+ -1532221218 [label="String.length"]
+  -33191695 -> -1532221218
+ 2028721569 [label="ByteArrayOutputStream.toByteArray"]
+  -33191695 -> 2028721569
+ 839964833 [label="String.getBytes"]
+  -33191695 -> 839964833
+ -957910822 [label="System.arraycopy"]
+  -33191695 -> -957910822
+ -2104216688 [label="FileUtils.getFile"]
+ 1692890216 [label="StreamUtils.pipe"]
+ 1648440855 [label="StreamUtils.pipe"]
+  1692890216 -> 1648440855
+ -983841986 [label="IOTestCase.tearDown"]
+ 288542665 [label="FileUtils.dirname"]
+ 655020899 [label="String.lastIndexOf"]
+  288542665 -> 655020899
+ -687732904 [label="String.substring"]
+  288542665 -> -687732904
+ 399035935 [label="HexDumpTest.main"]
+ -2040819896 [label="PrintStream.println"]
+  399035935 -> -2040819896
+ 790497648 [label="CountingOutputStream.getCount"]
+ 1163401158 [label="FileUtils.fileWrite"]
+ -978621869 [label="FileOutputStream.write"]
+  1163401158 -> -978621869
+ 839964833 [label="String.getBytes"]
+  1163401158 -> 839964833
+ 123811923 [label="FileOutputStream.close"]
+  1163401158 -> 123811923
+ 369025969 [label="StreamUtils.streamAsString"]
+ -790632834 [label="StreamUtils.streamAsString"]
+  369025969 -> -790632834
+ -1891773253 [label="LockableFileWriter.write"]
+ 982201579 [label="OutputStreamWriter.write"]
+  -1891773253 -> 982201579
+ 1596676801 [label="FileUtils.byteCountToDisplaySize"]
+ -1931293074 [label="String.valueOf"]
+  1596676801 -> -1931293074
+ 1425425562 [label="CountingOutputStream.write"]
+ -243037853 [label="IOTestCase.suite"]
+ 167986213 [label="IOTestCase.testFileUtils"]
+ -1627396991 [label="FileUtils.fileRead"]
+  167986213 -> -1627396991
+ 115972656 [label="FileUtils.extension"]
+  167986213 -> 115972656
+ -1575927598 [label="String.equals"]
+  167986213 -> -1575927598
+ 2097659592 [label="FileUtils.fileDelete"]
+  167986213 -> 2097659592
+ 1884231867 [label="FileUtils.fileExists"]
+  167986213 -> 1884231867
+ 1163401158 [label="FileUtils.fileWrite"]
+  167986213 -> 1163401158
+ -304244324 [label="LockableFileWriter.LockableFileWriter"]
+ -1433761908 [label="CountingOutputStream.write"]
+ 832408547 [label="FileUtils.basename"]
+ 655020899 [label="String.lastIndexOf"]
+  832408547 -> 655020899
+ -1532221218 [label="String.length"]
+  832408547 -> -1532221218
+ -687732904 [label="String.substring"]
+  832408547 -> -687732904
+ -57631259 [label="String.substring"]
+  832408547 -> -57631259
+ -367560576 [label="FileUtils.mkdir"]
+ -568375266 [label="File.mkdirs"]
+  -367560576 -> -568375266
+ -1676221210 [label="File.exists"]
+  -367560576 -> -1676221210
+ 1575766943 [label="HexDumpTest.toHex"]
+ -2102501118 [label="FileUtils.isValidFile"]
+ 115972656 [label="FileUtils.extension"]
+  -2102501118 -> 115972656
+ -1575927598 [label="String.equals"]
+  -2102501118 -> -1575927598
+ 1368871195 [label="HexDump.dump"]
+ 975338642 [label="StringBuffer.setLength"]
+  1368871195 -> 975338642
+ -1148393734 [label="StringBuffer.append"]
+  1368871195 -> -1148393734
+ 1751842697 [label="TeeOutputStream.TeeOutputStream"]
+ -989588829 [label="StreamUtils.streamAsBytes"]
+ 2028721569 [label="ByteArrayOutputStream.toByteArray"]
+  -989588829 -> 2028721569
+ -305767812 [label="StreamUtils.readStream"]
+  -989588829 -> -305767812
+ -927299187 [label="LockableFileWriter.createLock"]
+ 1068450262 [label="File.deleteOnExit"]
+  -927299187 -> 1068450262
+ 1495711918 [label="File.createNewFile"]
+  -927299187 -> 1495711918
+ 1106025350 [label="File.getAbsolutePath"]
+  -927299187 -> 1106025350
+ 935015930 [label="CountingOutputStream.write"]
+ -589123028 [label="IOTestCase.IOTestCase"]
+ 535069552 [label="FileUtils.blendFilesToVector"]
+ 1782328466 [label="Vector.addElement"]
+  535069552 -> 1782328466
+ 1431224537 [label="LockableFileWriter.testLockDir"]
+ 1106025350 [label="File.getAbsolutePath"]
+  1431224537 -> 1106025350
+ -1676221210 [label="File.exists"]
+  1431224537 -> -1676221210
+ -407858125 [label="File.canWrite"]
+  1431224537 -> -407858125
+ -305767812 [label="StreamUtils.readStream"]
+ -597100582 [label="ByteArrayOutputStream.write"]
+  -305767812 -> -597100582
+ 1952923650 [label="InputStream.read"]
+  -305767812 -> 1952923650
+ -1954249126 [label="LockableFileWriter.close"]
+ 527007370 [label="OutputStreamWriter.close"]
+  -1954249126 -> 527007370
+ -656106185 [label="File.delete"]
+  -1954249126 -> -656106185
+ 1079833999 [label="LockableFileWriter.LockableFileWriter"]
+ -927299187 [label="LockableFileWriter.createLock"]
+  1079833999 -> -927299187
+ 2125690197 [label="File.getName"]
+  1079833999 -> 2125690197
+ 1106025350 [label="File.getAbsolutePath"]
+  1079833999 -> 1106025350
+ 1431224537 [label="LockableFileWriter.testLockDir"]
+  1079833999 -> 1431224537
+ 1170136778 [label="System.getProperty"]
+  1079833999 -> 1170136778
+ -1816487426 [label="LockableFileWriter.LockableFileWriter"]
+ 1648440855 [label="StreamUtils.pipe"]
+ 1952923650 [label="InputStream.read"]
+  1648440855 -> 1952923650
+ 814359511 [label="OutputStream.write"]
+  1648440855 -> 814359511
+ -800627733 [label="TeeOutputStream.write"]
+ 814359511 [label="OutputStream.write"]
+  -800627733 -> 814359511
+ -356071733 [label="TeeOutputStream.close"]
+ 1843289271 [label="OutputStream.close"]
+  -356071733 -> 1843289271
+ -569205332 [label="FileUtils.waitFor"]
+ 1644659777 [label="Thread.sleep"]
+  -569205332 -> 1644659777
+ -1676221210 [label="File.exists"]
+  -569205332 -> -1676221210
+ 1449344619 [label="IOTestCase.setUp"]
+ 237435723 [label="HexDump.HexDump"]
+ 1175167155 [label="FileUtils.getFilesFromExtension"]
+ 1175167155 [label="FileUtils.getFilesFromExtension"]
+  1175167155 -> 1175167155
+ -1564871027 [label="File.isDirectory"]
+  1175167155 -> -1564871027
+ 535069552 [label="FileUtils.blendFilesToVector"]
+  1175167155 -> 535069552
+ -2102501118 [label="FileUtils.isValidFile"]
+  1175167155 -> -2102501118
+ 2125690197 [label="File.getName"]
+  1175167155 -> 2125690197
+ 1106025350 [label="File.getAbsolutePath"]
+  1175167155 -> 1106025350
+ 1852162179 [label="Vector.size"]
+  1175167155 -> 1852162179
+ -1575927598 [label="String.equals"]
+  1175167155 -> -1575927598
+ -1851033835 [label="Vector.copyInto"]
+  1175167155 -> -1851033835
+ 1782328466 [label="Vector.addElement"]
+  1175167155 -> 1782328466
+ 1170136778 [label="System.getProperty"]
+  1175167155 -> 1170136778
+ 2047087471 [label="File.list"]
+  1175167155 -> 2047087471
+ 939306702 [label="LockableFileWriter.flush"]
+ -874404098 [label="OutputStreamWriter.flush"]
+  939306702 -> -874404098
+ 115972656 [label="FileUtils.extension"]
+ -459902832 [label="String.lastIndexOf"]
+  115972656 -> -459902832
+ -57631259 [label="String.substring"]
+  115972656 -> -57631259
+ 930711355 [label="TeeOutputStream.write"]
+ 391425743 [label="OutputStream.write"]
+  930711355 -> 391425743
+ -788761365 [label="LockableFileWriter.LockableFileWriter"]
+ -790632834 [label="StreamUtils.streamAsString"]
+ -1735893900 [label="ByteArrayOutputStream.toString"]
+  -790632834 -> -1735893900
+ -305767812 [label="StreamUtils.readStream"]
+  -790632834 -> -305767812
+ -2110525922 [label="ByteArrayOutputStream.toString"]
+  -790632834 -> -2110525922
+ -720904110 [label="LockableFileWriter.LockableFileWriter"]
+}
